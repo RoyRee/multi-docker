@@ -21,6 +21,6 @@ after_success:
 
 # Take those images and push them to docker hub
   - docker push royree01/multi-client
-  - docker push royree01/multi-nginix
+  - docker push royree01/multi-nginx
   - docker push royree01/multi-server
   - docker push royree01/multi-worker
